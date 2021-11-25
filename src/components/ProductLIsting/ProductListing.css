@@ -1,0 +1,7 @@
+.productlisting {
+  margin-top: 3rem !important;
+  display: grid;
+  grid-template-columns: auto auto auto auto !important;
+  min-width: 100vw;
+  justify-content: space-around;
+}

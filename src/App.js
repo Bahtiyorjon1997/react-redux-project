@@ -1,9 +1,20 @@
 import "./App.css";
+import Header from "./components/Header/Header";
+import ProductListing from "./components/ProductLIsting/ProductListing";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ProductDetails from "./components/ProductDetails/ProductDetails";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <Router>
+        <Header />
+        <Routes>
+          <Route path="/" exact element={<ProductListing />} />
+          <Route path="/product/" element={<ProductDetails />} />
+          <Route>404 page not found</Route>
+        </Routes>
+      </Router>
     </div>
   );
 }
