@@ -1,7 +1,16 @@
 img {
   height: 20rem !important;
+  padding: 1rem;
+  background: white;
 }
 
 .product {
   height: 35rem;
+}
+
+.content {
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
