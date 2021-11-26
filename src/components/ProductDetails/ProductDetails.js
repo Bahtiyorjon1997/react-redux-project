@@ -25,7 +25,10 @@ const ProductDetails = () => {
   }, [productId]);
 
   return (
-    <div className="ui grid container">
+    <div
+      className="ui grid container"
+      style={{ padding: "8rem 4rem 4rem 4rem", height: "100vh" }}
+    >
       {Object.keys(product).length === 0 ? (
         <div>...Loading</div>
       ) : (
@@ -38,18 +41,54 @@ const ProductDetails = () => {
               </div>
               <div className="column rp">
                 <h1>{title}</h1>
-                <h2>
+                <h2 style={{ marginBottom: "3.3rem" }}>
                   <a href="" className="ui teal tag label">
                     ${price}
                   </a>
                 </h2>
-                <h3 className="ui brown block header">{category}</h3>
+                <h3
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    alignItems: "center",
+                    height: "6rem",
+                    fontSize: "2rem",
+                    margin: "1rem",
+                  }}
+                  className="ui brown block header"
+                >
+                  {category}
+                </h3>
                 <p>{description}</p>
-                <div className="ui vertical animated button" tabIndex="0">
-                  <div className="hidden content">
-                    <i className="shop icon"></i>
+                <div
+                  className="ui animated button"
+                  tabIndex="0"
+                  style={{
+                    display: "flex",
+                    justifyContent: "center",
+                    height: "4rem",
+                  }}
+                >
+                  <div
+                    className="hidden content"
+                    style={{
+                      width: "100%",
+                      display: "flex",
+                      flexDirection: "row",
+                      justifyContent: "center",
+                    }}
+                  >
+                    <i className="shop icon center"></i>
+                    <p className="white" style={{ marginTop: "-0.2rem" }}>
+                      Add to the Cart
+                    </p>
                   </div>
-                  <div className="visible content">Add to Cart</div>
+                  <div
+                    className="visible content center aligned"
+                    style={{ marginTop: "0.7rem", fontWeight: "700" }}
+                  >
+                    Add to Cart
+                  </div>
                 </div>
               </div>
             </div>

@@ -23,7 +23,7 @@ const ProductListing = () => {
   }, []);
   console.log("Products", products);
   return (
-    <div className="productlisting">
+    <div className="productlisting ui four column grid">
       <Product />
     </div>
   );
