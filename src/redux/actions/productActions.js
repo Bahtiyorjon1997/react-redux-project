@@ -6,9 +6,9 @@ export const setProducts = (products) => {
   };
 };
 
-export const selectedProducts = (product) => {
+export const selectedProduct = (product) => {
   return {
-    types: ActionTypes.SELECTED_PRODUCT,
+    type: ActionTypes.SELECTED_PRODUCT,
     payload: product,
   };
 };
