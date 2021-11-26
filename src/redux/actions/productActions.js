@@ -13,6 +13,8 @@ export const selectedProduct = (product) => {
   };
 };
 
-export const removeProduct = (product) => {
-  return {};
+export const removeSelectedProduct = (product) => {
+  return {
+    type: ActionTypes.REMOVE_SELECTED_PRODUCT,
+  };
 };

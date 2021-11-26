@@ -12,5 +12,4 @@ img {
   height: 10rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
