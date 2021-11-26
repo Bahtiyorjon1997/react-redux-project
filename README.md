@@ -1,3 +1,17 @@
+#This is a demo online shop that fetch Fake API from https://fakestoreapi.com
+
+#The used Tools: React, React-redux, redux, axios, react hooks(useEffect, useState)
+
+#here are some pics of the running project:
+
+<img width="1439" alt="Screen Shot 2021-11-26 at 14 45 42" src="https://user-images.githubusercontent.com/57130125/143591255-aab51456-5d02-4f68-9f96-95b74f9c1060.png">
+<img width="496" alt="Screen Shot 2021-11-26 at 14 46 30" src="https://user-images.githubusercontent.com/57130125/143591375-286c9110-cedd-4dc6-9c68-fffefcf8bb23.png">
+
+<img width="798" alt="Screen Shot 2021-11-26 at 14 47 00" src="https://user-images.githubusercontent.com/57130125/143591377-a0301daf-9c26-438c-972e-4cd271c329ac.png">
+
+<img width="1417" alt="Screen Shot 2021-11-26 at 14 47 27" src="https://user-images.githubusercontent.com/57130125/143591376-77036b4d-667b-4505-bb7f-e1acc4761ac0.png">
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
